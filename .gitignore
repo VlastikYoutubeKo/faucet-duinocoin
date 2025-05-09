@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+# Composer packages
+/vendor/
+
+# SQLite database
+/storage/database/*.sqlite
+
+# IDE files
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
