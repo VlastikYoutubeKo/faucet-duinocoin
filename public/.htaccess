@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Redirect to public directory if not already there
+RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+
+# Skip existing files and directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Send all requests to index.php
+RewriteRule ^(.*)$ index.php [L,QSA]
