@@ -24,7 +24,7 @@
 <body>
     <header>
         <div class="container">
-            <h1><a href="/"><?= $appName ?? 'KatFaucet' ?> 😻</a></h1>
+            <h1><a href="/"><?= $appName ?? 'KatFaucet' ?> đź»</a></h1>
             <nav>
                 <ul>
                     <li><a href="/" class="<?= $_SERVER['REQUEST_URI'] === '/' || $_SERVER['REQUEST_URI'] === '/home' ? 'active' : '' ?>">Home</a></li>
@@ -48,9 +48,9 @@
 
     <footer>
         <div class="container">
-            <p>If you want to donate, send DUCO to <strong>katfaucet</strong>!</p>
-            <p>Join our community: <a href="https://discord.gg/HUbHqUQUD2" target="_blank"><i class="fab fa-discord"></i> Discord</a></p>
-            <p class="copyright">© <?= date('Y') ?> <?= $appName ?? 'KatFaucet' ?></p>
+            <p>If you want to donate, send DUCO to <strong>plainrock</strong>!</p>
+	    <p>Source code: <a href="https://github.com/VlastikYoutubeKo/faucet-duinocoin" target="_blank"><i class="fab fa-github"></i> Here</a></p>
+            <p class="copyright">Â© <?= date('Y') ?> <?= $appName ?? 'KatFaucet' ?></p>
         </div>
     </footer>
     
