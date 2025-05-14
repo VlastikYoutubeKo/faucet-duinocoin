@@ -3,6 +3,7 @@
 This is a modernized PHP-based DuinoCoin faucet, originally developed by [Gamecat999](https://github.com/Gamecat999/Php-Duinocoin-Faucet).  
 You can find the original version here: [github.com/Gamecat999/Php-Duinocoin-Faucet](https://github.com/Gamecat999/Php-Duinocoin-Faucet)  
 Live demo of the old faucet: [https://katfaucet.com](https://katfaucet.com)
+
 Live version of this code: [tokeny.odjezdy.online](https://tokeny.odjezdy.online) & [faucet.mxnticek.is-not-a.dev](https://faucet.mxnticek.is-not-a.dev)
 
 ## What's New
