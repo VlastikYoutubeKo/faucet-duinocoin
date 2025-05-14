@@ -13,7 +13,7 @@ This version is a complete refresh of the original faucet, featuring:
 - **Redesigned UI** for a cleaner and more modern experience
 - **Refactored PHP backend**, making the codebase easier to maintain and extend
 - **Cloudflare Turnstile** support instead of Google reCAPTCHA
-- **Blacklist system** to block abusive or bot addresses
+- **Blacklist system** to block abusive or bot addresses (Doesn't work as of right now. Will fix when possible)
 - **Self-hostable** – deploy on your own server or VPS (free hosts not recommended)
 
 ## Getting Started
