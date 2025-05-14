@@ -20,7 +20,7 @@ This version is a complete refresh of the original faucet, featuring:
 
 1. Clone this repository to your server.
 2. Configure the faucet settings and Turnstile site/secret keys.
-3. Upload to a PHP-compatible hosting environment.
+3. Upload contents of `public/` to a PHP-compatible hosting environment.
 4. Done – your faucet is now online!
 
 ## Notes
